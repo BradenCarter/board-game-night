@@ -1,0 +1,27 @@
+{
+  "name": "board-game-night",
+  "version": "1.0.0",
+  "description": "Back-end service for retrieving game and member data",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradenCarter/board-game-night.git"
+  },
+  "author": "Braden Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradenCarter/board-game-night/issues"
+  },
+  "homepage": "https://github.com/BradenCarter/board-game-night#readme",
+  "dependencies": {
+    "@azure/cosmos": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
